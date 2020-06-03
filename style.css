@@ -83,6 +83,7 @@ body{
   /*border: white 2px solid;*/
 }
 
+
 #header .nav-link:hover{
   color: var(--color-white)!important;
 }
