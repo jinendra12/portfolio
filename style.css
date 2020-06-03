@@ -74,6 +74,15 @@ body{
   text-transform: uppercase;
 }
 
+#header .nav-item {
+  color: grey;
+}
+
+#header .active {
+  color: gold;
+  /*border: white 2px solid;*/
+}
+
 #header .nav-link:hover{
   color: var(--color-white)!important;
 }
@@ -129,9 +138,10 @@ body{
   border-radius:15px;
   box-shadow: 5px 5px 5px 5px black;
   padding: 20px;
-  margin-top: 20px;
-
+  height: 100%;
 }
+
+
 
 @media screen and (min-width: 768px){
   .toggle-button{

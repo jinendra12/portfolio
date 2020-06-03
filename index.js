@@ -13,7 +13,13 @@ $(document).ready(function(e){
 
         $navbar.toggleClass("toggle-left");
         
-    })
+    });
+
+    $(".nav-item").on("click", function (e) {
+        $(".nav-item").removeClass("active");
+        console.log("$(\"li.nav-item\")  " + $("li.nav-item"));
+        $(this).addClass("active");
+    });
 });
 
 function toggle_onclick($win,$navbar,width){
